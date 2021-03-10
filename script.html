@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>How to code a website - Home</title>
+        <title>How to code a website - JS</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -27,7 +27,7 @@
                   <a class="nav-link" href="stylesheet.html">CSS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="script.html">JS</a>
+                  <a class="nav-link active">JS</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="elem.html">Elements</a>
@@ -42,20 +42,28 @@
             </div>
           </nav>
           <div class="container-fluid">
-            <h4 class="pt-3">Home</h4>
-            <p class="pt-3">Most people think coding websites is extremely hard and only for very good coders.
-                This is not true. Websites are coded with HTML, CSS and JS. This website was coded with these things.
-                My guide to doing this will, hopefully, help you to make your own website.
+            <h4 class="pt-3">JS</h4>
+            <p class="pt-3">JS stands for <i>JavaScript</i>. This is what makes yoru website be interactive with buttons and other things. Here is an example:
+                <code>
+                    alert('Hello World!')
+                </code>
+                This will make the background colour blue.
+                In your repl you will see a link tag. This is why you can see the style. Make sure when you use CSS you reference the elemnt you want to change (see above). There are 3 types of CSS, inline, internal or external.
             </p>
-            <p class="pt-3">Before you continue it is important you find an IDE (Integrated development environment), 
-                this is where you can write your code. Currently I am using a desktop IDE called Microsoft Visual Studio Code.
-                There are lots but if you are just starting coding, I would suggest <a href="https://repl.it" target="_blank">repl.it</a> in repl
-                they give you all the files, there is a community and some examples to help you get going. There is also <a href="https://github.com" target="_blank">GitHub</a>,
-                The problem with this is GitHub is very complicated. So I would stick with repl. I will show instructions in repl, so it is probably the best choice.
-            </p>
-            <div class="list pt-3">In repl you should first make an account. Choose a wise username as this will be part of the URL (Uniform resource locator).</div>
-            <div class="list pt-3">Then make a new HTML, CSS and JS file. On repl, you have to press the small blue plus sign <img class="repl" src="images/Repl-New-File.JPG"/>, or click on <a href="https://repl.it/@MrEPerson/Blank#index.html" target="_blank">this link</a> if you do this you will need to press the fork button to edit.</div>
-            <div class="list pt-3">After that you should follow my instructions in the tabs above.</div>
+            <h5>Instructions</h5>
+            <div class="list">
+                On your script.js file start with typing <code>alert('Hello')</code>. Press run and 
+            </div>
+          <h5 class="pt-3">Completed Code</h5>
+          <code>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');<br>
+            body {<br>
+              background-color: blue;<br>
+              color: red;<br>
+              font-family: Roboto;<br>
+            }<br>
+          </code>
+            <div class="pt-3"></div>
         </div>
     </body>
 </html>
